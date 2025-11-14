@@ -68,14 +68,3 @@ The backend is built using **FastAPI** to serve model predictions and other dyna
 | **`weather_service.py`** | Backend module to fetch weather info and calculate disease risk. | **Stubbed:** Methods like `fetch_weather_data` and `calculate_disease_risk` are placeholder functions. |
 | **`chatbot_service.py`** | Backend module for chatbot responses. | **Stubbed:** The `get_response` method is a placeholder. |
 
----
-
-## 🚦 Next Steps
-
-The next major phases of development should focus on implementing the **stubbed** features:
-
-1.  **Backend Integration:** Implement the real logic in `main.py`'s endpoints for weather and chatbot services.
-2.  **User Authentication:** Fully implement `login.dart` and `user_service.dart` alongside the backend service.
-3.  **Data Persistence:** Implement `storage_service.dart` and `history_service.dart` to manage user history.
-
-Would you like me to generate a simple example for one of the currently implemented files, like `model_service.dart` or `capture_screen.dart`?
